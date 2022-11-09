@@ -1,4 +1,25 @@
 
+#header-logo{
+    background: url("src/assets/img/logo.png") no-repeat center center;
+    background-size: cover;
+    width: 180px
+  }
+  #metamask{
+    background: url("src/assets/img/MetaMask.png") no-repeat center center;
+    background-size: cover;
+    width: 180px
+  }
+  .navbar{
+    color: rgb(110,183,231);
+    background-color: rgb(110,183,231);
+  }
 
-
+  form {
+    width: 300px;
+    height: 55px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
