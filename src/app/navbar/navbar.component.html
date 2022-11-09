@@ -1,8 +1,52 @@
-<mat-toolbar color="primary" class="navbar">
-  <div>Fundium</div>
-  <div>
-    <span>Discover</span>
-      <span>Connect to Metamask</span>
-    <span>Search?</span>
+<nav class="navbar is-transparant is-info" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <!-- logo -->
+    <a  id="header-logo" class="navbar-item" href="metamask.com"></a>
   </div>
-</mat-toolbar>
+  <div class="navbar-start">
+  <a class="navbar-item">
+  Home
+  </a>
+  <div class="navbar-item has-dropdown is-hoverable">
+  <a class="navbar-link">
+    Categories
+  </a>
+    <div class="navbar-dropdown">
+      <a class="navbar-item">
+        Art
+      </a>
+      <a class="navbar-item">
+        Animals
+      </a>
+      <a class="navbar-item">
+        Cars
+      </a>
+      <hr class="navbar-divider">
+    <div class="navbar-item">
+        Version 0.9.4
+    </div>
+  </div>
+</div>
+
+<form id="form" role="search">
+  <input type="search" id="query" name="q"
+   placeholder="Search..."
+   aria-label="Search through site content">
+  <button>Search</button>
+</form>
+</div>
+<!-- RIGHT SIDE -->
+<div class="navbar-end">
+  <a class="navbar-item">
+    My Projects
+  </a>
+  <a class="navbar-item">
+    My Account
+  </a>
+  </div>
+
+  <!-- METAMASK CONNECT BUTTOM -->
+  <a  id="metamask" class="navbar-item" href="metamask.com"></a>
+
+
+</nav>
